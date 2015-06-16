@@ -1,6 +1,10 @@
 # Amaze UI Tree
 ---
 
+[![NPM version](https://img.shields.io/npm/v/amazeui-tree.svg?style=flat-square)](https://www.npmjs.com/package/amazeui-tree)
+[![Dependency Status](https://img.shields.io/david/amazeui/tree.svg?style=flat-square)](https://david-dm.org/amazeui/tree)
+[![devDependency Status](https://img.shields.io/david/dev/amazeui/tree.svg?style=flat-square)](https://david-dm.org/amazeui/tree#info=devDependencies)
+
 Amaze UI Tree 插件。
 
 - [使用示例](http://amazeui.github.io/tree/docs/demo.html)
@@ -33,6 +37,6 @@ Amaze UI Tree 插件。
 
   ```js
   $(function() {
-      $('#my-table').tree();
+      $('#my-tree').tree();
   });
   ```
