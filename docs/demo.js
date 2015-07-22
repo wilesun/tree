@@ -39,14 +39,15 @@ jQuery(function($) {
         callback({data: options.products || data});
       }, 400);
     },
-    multiSelect: true,
+    multiSelect: false,
     cacheItems: true,
     folderSelect: false
   });
 
 
   // demo 2
-  $('#myTree').tree({
+  var $myTree = $('#myTree');
+  $myTree.tree({
     dataSource: function(options, callback) {
       setTimeout(function() {
         callback({

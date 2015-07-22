@@ -126,7 +126,7 @@ $('#myTree').tree({dataSource: dataSource});
         callback({data: options.products || data});
       }, 400);
     },
-    multiSelect: true,
+    multiSelect: false,
     cacheItems: true,
     folderSelect: false
   });

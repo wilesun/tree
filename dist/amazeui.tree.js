@@ -69,7 +69,8 @@ Tree.prototype = {
     nodes = nodes || this.$element;
     var $selectedElements = $(nodes).find('.' + this.classes.selected);
     $selectedElements.each(function(index, element) {
-      styleNodeDeselected($(element), $(element).find('.' + _this.classes.icon));
+      styleNodeDeselected(_this, $(element),
+        $(element).find('.' + _this.classes.icon));
     });
     return $selectedElements;
   },
