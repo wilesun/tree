@@ -1,6 +1,6 @@
 {
   "name": "amazeui-tree",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "jQuery tree plugin based on Amaze UI.",
   "main": "lib/amazeui.tree.js",
   "style": "dist/amazeui.tree.css",
