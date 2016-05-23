@@ -33,7 +33,6 @@
 .am-tree .am-tree-open > .am-tree-branch-header .am-tree-icon-caret {
   position: relative;
   -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
           transform: rotate(90deg);
 }
 .am-tree .am-tree-loader {
